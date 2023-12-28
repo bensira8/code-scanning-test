@@ -3,7 +3,7 @@ import gradio as gr
 
 def fn(text):
         html = ("<div>" + text + "</div>")
-            return html
+        return html
 
 
 demo = gr.Interface(
