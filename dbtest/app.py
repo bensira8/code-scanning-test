@@ -6,9 +6,9 @@ def fn(text):
             return html
 
 
-        demo = gr.Interface(
-                    fn,
-                        inputs="text", outputs="html"
-                        )
+demo = gr.Interface(
+            fn,
+                inputs="text", outputs="html"
+                )
 
-        demo.launch()
+demo.launch()
