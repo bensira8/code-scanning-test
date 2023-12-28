@@ -8,7 +8,7 @@ def fn(text):
 
         demo = gr.Interface(
                     fn,
-                        inputs="text", outputs="html",
+                        inputs="text", outputs="html"
                         )
 
         demo.launch()
